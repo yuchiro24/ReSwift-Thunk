@@ -22,7 +22,8 @@ let package = Package(
       .target(
         name: "ReSwiftThunkTesting",
         dependencies: [
-          "ReSwift"
+          "ReSwift",
+          "ReSwiftThunk"
         ],
         path: "ReSwift-ThunkTests/",
         sources: ["ExpectThunk.swift"]
